@@ -8,13 +8,13 @@ You decide what you want to use, be it `React`, `jQuery`, plain vanilla `JS` wit
 
 Write in `codepen` or your own environment, codepen is easier to review online.
 
-|                              | Quotes Generator                                             | Weather Report                                               |
-| ---------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| data source                  | https://talaikis.com/api/quotes/random/ (or something else)                     | https://api.darksky.net/forecast/d2be6e54e49f3863401a87f85187fe64/39.2616,-121.0161<br />you can choose another api (NOAA etc) but this one seems decent |
-| Objective                    | show quotes                                                  | display the weather                                          |
-| MVP (minimal viable product) | single quote on running of program                           | shows current temperature etc                                |
-| ideas to increase difficulty | - get a new quote on button press<br />-show a list of authors at the bottom of the page<br />-make it pretty, center in page etc<br />-fetch image of author and show it with the quote | - show current weather for fixed location<br />-allow user to input ZIP code/location and get the weather<br />-use geolocation API<br />-make a nice graphical representation of forecast<br />- use https://erikflowers.github.io/weather-icons/ |
-| Publish it:                  | use surge.sh                                                 | or any other service to get it on the web!                   |
+|                              | Quotes Generator                                             | Weather Report                                               | Smoke report                                                 |
+| ---------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| data source                  | https://talaikis.com/api/quotes/random/ (or something else)  | https://api.darksky.net/forecast/d2be6e54e49f3863401a87f85187fe64/39.2616,-121.0161<br />you can choose another api (NOAA etc) but this one seems decent | http://api.airvisual.com/v2/city?city=Grass%20Valley&state=California&country=USA&key=nj985bWNsDHtC4m9B<br />Do some more research about APIs |
+| Objective                    | show quotes                                                  | display the weather                                          | show air quality w/ forecast?                                |
+| MVP (minimal viable product) | single quote on running of program                           | shows current temperature etc                                | current PM2.5 value                                          |
+| ideas to increase difficulty | - get a new quote on button press<br />-show a list of authors at the bottom of the page<br />-make it pretty, center in page etc<br />-fetch image of author and show it with the quote | - show current weather for fixed location<br />-allow user to input ZIP code/location and get the weather<br />-use geolocation API<br />-make a nice graphical representation of forecast<br />- use https://erikflowers.github.io/weather-icons/ | get creative                                                 |
+| Publish it:                  | use surge.sh                                                 | or any other service to get it on the web!                   |                                                              |
 
 **Read up on the problems but try to do the actual code yourself, not just copy/paste the whole solution.**
 
